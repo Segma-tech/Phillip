@@ -5,10 +5,8 @@ import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.MongoCollection;
 import org.bson.Document;
 
-public class App
-{
-    public static void main(String[] args)
-    {
+public class App {
+    public static void main(String[] args) {
         // Connect to MongoDB on local system - we're using port 27000
         // Connect to MongoDB
         MongoClient mongoClient = new MongoClient("mongo-dbserver");
@@ -29,3 +27,4 @@ public class App
         System.out.println(myDoc.toJson());
     }
 }
+
