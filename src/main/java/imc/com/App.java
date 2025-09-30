@@ -22,7 +22,7 @@ public class App
         int retries = 100;
         for (int i = 0; i < retries; ++i)
         {
-            System.out.println("Connecting to database...");
+            System.out.println("Connecting to database...!!");
             try
             {
                 // Wait a bit for db to start
