@@ -1,6 +1,5 @@
 package imc.com;
 
-public class Employee {
         /**
          * Employee number
          */
@@ -36,4 +35,3 @@ public class Employee {
          */
         public String manager;
     }
-
